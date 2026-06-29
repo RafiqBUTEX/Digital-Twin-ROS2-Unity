@@ -1,0 +1,37 @@
+[5.600s] Invoking command in '/home/rafiq/ros2_ws/src/joint_publisher': PYTHONPATH=/home/rafiq/ros2_ws/build/joint_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/ros2_ws/install/joint_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joint_publisher build --build-base /home/rafiq/ros2_ws/build/joint_publisher/build install --record /home/rafiq/ros2_ws/build/joint_publisher/install.log --single-version-externally-managed install_data
+[6.058s] running egg_info
+[6.083s] creating ../../build/joint_publisher/joint_publisher.egg-info
+[6.111s] writing ../../build/joint_publisher/joint_publisher.egg-info/PKG-INFO
+[6.112s] writing dependency_links to ../../build/joint_publisher/joint_publisher.egg-info/dependency_links.txt
+[6.112s] writing entry points to ../../build/joint_publisher/joint_publisher.egg-info/entry_points.txt
+[6.113s] writing requirements to ../../build/joint_publisher/joint_publisher.egg-info/requires.txt
+[6.113s] writing top-level names to ../../build/joint_publisher/joint_publisher.egg-info/top_level.txt
+[6.113s] writing manifest file '../../build/joint_publisher/joint_publisher.egg-info/SOURCES.txt'
+[6.113s] reading manifest file '../../build/joint_publisher/joint_publisher.egg-info/SOURCES.txt'
+[6.127s] writing manifest file '../../build/joint_publisher/joint_publisher.egg-info/SOURCES.txt'
+[6.137s] running build
+[6.137s] running build_py
+[6.137s] creating /home/rafiq/ros2_ws/build/joint_publisher/build
+[6.137s] creating /home/rafiq/ros2_ws/build/joint_publisher/build/lib
+[6.137s] creating /home/rafiq/ros2_ws/build/joint_publisher/build/lib/joint_publisher
+[6.137s] copying joint_publisher/joint_publisher.py -> /home/rafiq/ros2_ws/build/joint_publisher/build/lib/joint_publisher
+[6.138s] copying joint_publisher/__init__.py -> /home/rafiq/ros2_ws/build/joint_publisher/build/lib/joint_publisher
+[6.148s] running install
+[6.155s] running install_lib
+[6.182s] creating /home/rafiq/ros2_ws/install/joint_publisher/lib/python3.10/site-packages/joint_publisher
+[6.182s] copying /home/rafiq/ros2_ws/build/joint_publisher/build/lib/joint_publisher/joint_publisher.py -> /home/rafiq/ros2_ws/install/joint_publisher/lib/python3.10/site-packages/joint_publisher
+[6.183s] copying /home/rafiq/ros2_ws/build/joint_publisher/build/lib/joint_publisher/__init__.py -> /home/rafiq/ros2_ws/install/joint_publisher/lib/python3.10/site-packages/joint_publisher
+[6.192s] byte-compiling /home/rafiq/ros2_ws/install/joint_publisher/lib/python3.10/site-packages/joint_publisher/joint_publisher.py to joint_publisher.cpython-310.pyc
+[6.192s] byte-compiling /home/rafiq/ros2_ws/install/joint_publisher/lib/python3.10/site-packages/joint_publisher/__init__.py to __init__.cpython-310.pyc
+[6.205s] running install_data
+[6.206s] creating /home/rafiq/ros2_ws/install/joint_publisher/share/ament_index
+[6.206s] creating /home/rafiq/ros2_ws/install/joint_publisher/share/ament_index/resource_index
+[6.206s] creating /home/rafiq/ros2_ws/install/joint_publisher/share/ament_index/resource_index/packages
+[6.206s] copying resource/joint_publisher -> /home/rafiq/ros2_ws/install/joint_publisher/share/ament_index/resource_index/packages
+[6.206s] copying package.xml -> /home/rafiq/ros2_ws/install/joint_publisher/share/joint_publisher
+[6.206s] running install_egg_info
+[6.224s] Copying ../../build/joint_publisher/joint_publisher.egg-info to /home/rafiq/ros2_ws/install/joint_publisher/lib/python3.10/site-packages/joint_publisher-0.0.0-py3.10.egg-info
+[6.224s] running install_scripts
+[6.267s] Installing joint_publisher script to /home/rafiq/ros2_ws/install/joint_publisher/lib/joint_publisher
+[6.267s] writing list of installed files to '/home/rafiq/ros2_ws/build/joint_publisher/install.log'
+[6.381s] Invoked command in '/home/rafiq/ros2_ws/src/joint_publisher' returned '0': PYTHONPATH=/home/rafiq/ros2_ws/build/joint_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/ros2_ws/install/joint_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joint_publisher build --build-base /home/rafiq/ros2_ws/build/joint_publisher/build install --record /home/rafiq/ros2_ws/build/joint_publisher/install.log --single-version-externally-managed install_data

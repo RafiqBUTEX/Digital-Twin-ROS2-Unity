@@ -1,0 +1,263 @@
+[0.752s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.752s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74b79ffe3490>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74b7a01d4b50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74b7a01d4b50>>)
+[1.901s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.903s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rafiq/ros2_ws'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore_ament_install'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_pkg']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_pkg'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_meta']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_meta'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ros']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ros'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['cmake', 'python']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'cmake'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['python_setup_py']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python_setup_py'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ignore', 'ignore_ament_install']
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore_ament_install'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_pkg']
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_pkg'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_meta']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_meta'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ros']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ros'
+[1.996s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-TCP-Endpoint' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_publisher) by extensions ['ignore', 'ignore_ament_install']
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_publisher) by extension 'ignore'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_publisher) by extension 'ignore_ament_install'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_publisher) by extensions ['colcon_pkg']
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_publisher) by extension 'colcon_pkg'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_publisher) by extensions ['colcon_meta']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_publisher) by extension 'colcon_meta'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_publisher) by extensions ['ros']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_publisher) by extension 'ros'
+[2.004s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joint_publisher' with type 'ros.ament_python' and name 'joint_publisher'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['ignore', 'ignore_ament_install']
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'ignore'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'ignore_ament_install'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['colcon_pkg']
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'colcon_pkg'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['colcon_meta']
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'colcon_meta'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['ros']
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'ros'
+[2.011s] DEBUG:colcon.colcon_core.package_identification:Package 'src/talker_listener' with type 'ros.ament_python' and name 'talker_listener'
+[2.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.146s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 365 installed packages in /opt/ros/humble
+[2.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.260s] Level 5:colcon.colcon_core.verb:set package 'joint_publisher' build argument 'cmake_args' from command line to 'None'
+[2.261s] Level 5:colcon.colcon_core.verb:set package 'joint_publisher' build argument 'cmake_target' from command line to 'None'
+[2.261s] Level 5:colcon.colcon_core.verb:set package 'joint_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.261s] Level 5:colcon.colcon_core.verb:set package 'joint_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[2.261s] Level 5:colcon.colcon_core.verb:set package 'joint_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[2.261s] Level 5:colcon.colcon_core.verb:set package 'joint_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[2.261s] Level 5:colcon.colcon_core.verb:set package 'joint_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[2.261s] Level 5:colcon.colcon_core.verb:set package 'joint_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[2.261s] Level 5:colcon.colcon_core.verb:set package 'joint_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.261s] DEBUG:colcon.colcon_core.verb:Building package 'joint_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rafiq/ros2_ws/build/joint_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rafiq/ros2_ws/install/joint_publisher', 'merge_install': False, 'path': '/home/rafiq/ros2_ws/src/joint_publisher', 'symlink_install': True, 'test_result_base': None}
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.262s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rafiq/ros2_ws/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rafiq/ros2_ws/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/rafiq/ros2_ws/src/ROS-TCP-Endpoint', 'symlink_install': True, 'test_result_base': None}
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_args' from command line to 'None'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_target' from command line to 'None'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_clean_first' from command line to 'False'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'cmake_force_configure' from command line to 'False'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'ament_cmake_args' from command line to 'None'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'talker_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.263s] DEBUG:colcon.colcon_core.verb:Building package 'talker_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rafiq/ros2_ws/build/talker_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rafiq/ros2_ws/install/talker_listener', 'merge_install': False, 'path': '/home/rafiq/ros2_ws/src/talker_listener', 'symlink_install': True, 'test_result_base': None}
+[2.263s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.271s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rafiq/ros2_ws/src/joint_publisher' with build type 'ament_python'
+[2.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_publisher', 'ament_prefix_path')
+[2.320s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/install/joint_publisher/share/joint_publisher/hook/ament_prefix_path.ps1'
+[2.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafiq/ros2_ws/install/joint_publisher/share/joint_publisher/hook/ament_prefix_path.dsv'
+[2.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/install/joint_publisher/share/joint_publisher/hook/ament_prefix_path.sh'
+[2.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.361s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rafiq/ros2_ws/src/ROS-TCP-Endpoint' with build type 'ament_python'
+[2.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[2.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[2.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[2.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[2.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.916s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rafiq/ros2_ws/src/joint_publisher'
+[2.916s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.917s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.312s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rafiq/ros2_ws/src/ROS-TCP-Endpoint'
+[3.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.708s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rafiq/ros2_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages/ros_tcp_endpoint
+[5.708s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rafiq/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.xml
+[5.716s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rafiq/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch/endpoint.py
+[5.725s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rafiq/ros2_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint/default_server_endpoint
+[5.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafiq/ros2_ws/build/ros_tcp_endpoint': PYTHONPATH=/home/rafiq/ros2_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rafiq/ros2_ws/build/ros_tcp_endpoint/build --no-deps symlink_data --force
+[5.748s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rafiq/ros2_ws/install/joint_publisher/share/ament_index/resource_index/packages/joint_publisher
+[5.748s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rafiq/ros2_ws/install/joint_publisher/share/joint_publisher/package.xml
+[5.749s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rafiq/ros2_ws/install/joint_publisher/lib/joint_publisher/joint_publisher
+[5.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafiq/ros2_ws/build/joint_publisher': PYTHONPATH=/home/rafiq/ros2_ws/build/joint_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/ros2_ws/install/joint_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rafiq/ros2_ws/build/joint_publisher/build --no-deps symlink_data --force
+[7.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath_develop')
+[7.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.ps1'
+[7.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafiq/ros2_ws/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.dsv'
+[7.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafiq/ros2_ws/build/ros_tcp_endpoint' returned '0': PYTHONPATH=/home/rafiq/ros2_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rafiq/ros2_ws/build/ros_tcp_endpoint/build --no-deps symlink_data --force
+[7.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.sh'
+[7.145s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/ros_tcp_endpoint' for CMake module files
+[7.146s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/ros_tcp_endpoint' for CMake config files
+[7.147s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/lib'
+[7.147s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/bin'
+[7.147s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[7.147s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages'
+[7.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[7.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[7.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[7.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[7.154s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/bin'
+[7.154s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[7.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[7.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[7.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[7.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[7.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[7.176s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafiq/ros2_ws/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[7.176s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rafiq/ros2_ws/src/talker_listener' with build type 'ament_python'
+[7.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listener', 'ament_prefix_path')
+[7.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/install/talker_listener/share/talker_listener/hook/ament_prefix_path.ps1'
+[7.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafiq/ros2_ws/install/talker_listener/share/talker_listener/hook/ament_prefix_path.dsv'
+[7.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/install/talker_listener/share/talker_listener/hook/ament_prefix_path.sh'
+[7.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.187s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_publisher', 'pythonpath_develop')
+[7.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/build/joint_publisher/share/joint_publisher/hook/pythonpath_develop.ps1'
+[7.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafiq/ros2_ws/build/joint_publisher/share/joint_publisher/hook/pythonpath_develop.dsv'
+[7.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/build/joint_publisher/share/joint_publisher/hook/pythonpath_develop.sh'
+[7.220s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/joint_publisher' for CMake module files
+[7.221s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/joint_publisher' for CMake config files
+[7.222s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/joint_publisher/lib'
+[7.222s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/joint_publisher/bin'
+[7.242s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/joint_publisher/lib/pkgconfig/joint_publisher.pc'
+[7.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafiq/ros2_ws/build/joint_publisher' returned '0': PYTHONPATH=/home/rafiq/ros2_ws/build/joint_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/ros2_ws/install/joint_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rafiq/ros2_ws/build/joint_publisher/build --no-deps symlink_data --force
+[7.248s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/joint_publisher/lib/python3.10/site-packages'
+[7.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_publisher', 'pythonpath')
+[7.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/install/joint_publisher/share/joint_publisher/hook/pythonpath.ps1'
+[7.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafiq/ros2_ws/install/joint_publisher/share/joint_publisher/hook/pythonpath.dsv'
+[7.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/install/joint_publisher/share/joint_publisher/hook/pythonpath.sh'
+[7.264s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/joint_publisher/bin'
+[7.264s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joint_publisher)
+[7.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros2_ws/install/joint_publisher/share/joint_publisher/package.ps1'
+[7.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafiq/ros2_ws/install/joint_publisher/share/joint_publisher/package.dsv'
+[7.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros2_ws/install/joint_publisher/share/joint_publisher/package.sh'
+[7.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros2_ws/install/joint_publisher/share/joint_publisher/package.bash'
+[7.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros2_ws/install/joint_publisher/share/joint_publisher/package.zsh'
+[7.281s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafiq/ros2_ws/install/joint_publisher/share/colcon-core/packages/joint_publisher)
+[7.788s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rafiq/ros2_ws/src/talker_listener'
+[7.789s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.789s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.432s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rafiq/ros2_ws/install/talker_listener/share/ament_index/resource_index/packages/talker_listener
+[8.433s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rafiq/ros2_ws/install/talker_listener/share/talker_listener/package.xml
+[8.439s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rafiq/ros2_ws/install/talker_listener/lib/talker_listener/listener
+[8.440s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rafiq/ros2_ws/install/talker_listener/lib/talker_listener/talker
+[8.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafiq/ros2_ws/build/talker_listener': PYTHONPATH=/home/rafiq/ros2_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/ros2_ws/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rafiq/ros2_ws/build/talker_listener/build --no-deps symlink_data --force
+[9.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listener', 'pythonpath_develop')
+[9.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/build/talker_listener/share/talker_listener/hook/pythonpath_develop.ps1'
+[9.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafiq/ros2_ws/build/talker_listener' returned '0': PYTHONPATH=/home/rafiq/ros2_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/ros2_ws/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rafiq/ros2_ws/build/talker_listener/build --no-deps symlink_data --force
+[9.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafiq/ros2_ws/build/talker_listener/share/talker_listener/hook/pythonpath_develop.dsv'
+[9.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/build/talker_listener/share/talker_listener/hook/pythonpath_develop.sh'
+[9.177s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/talker_listener' for CMake module files
+[9.178s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/talker_listener' for CMake config files
+[9.178s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/talker_listener/lib'
+[9.179s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/talker_listener/bin'
+[9.179s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/talker_listener/lib/pkgconfig/talker_listener.pc'
+[9.179s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/talker_listener/lib/python3.10/site-packages'
+[9.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker_listener', 'pythonpath')
+[9.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/install/talker_listener/share/talker_listener/hook/pythonpath.ps1'
+[9.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafiq/ros2_ws/install/talker_listener/share/talker_listener/hook/pythonpath.dsv'
+[9.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros2_ws/install/talker_listener/share/talker_listener/hook/pythonpath.sh'
+[9.185s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros2_ws/install/talker_listener/bin'
+[9.186s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talker_listener)
+[9.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros2_ws/install/talker_listener/share/talker_listener/package.ps1'
+[9.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafiq/ros2_ws/install/talker_listener/share/talker_listener/package.dsv'
+[9.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros2_ws/install/talker_listener/share/talker_listener/package.sh'
+[9.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros2_ws/install/talker_listener/share/talker_listener/package.bash'
+[9.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros2_ws/install/talker_listener/share/talker_listener/package.zsh'
+[9.196s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafiq/ros2_ws/install/talker_listener/share/colcon-core/packages/talker_listener)
+[9.197s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.197s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.198s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.198s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.234s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.234s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.335s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.335s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafiq/ros2_ws/install/local_setup.ps1'
+[9.340s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rafiq/ros2_ws/install/_local_setup_util_ps1.py'
+[9.361s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafiq/ros2_ws/install/setup.ps1'
+[9.367s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafiq/ros2_ws/install/local_setup.sh'
+[9.372s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rafiq/ros2_ws/install/_local_setup_util_sh.py'
+[9.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafiq/ros2_ws/install/setup.sh'
+[9.381s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafiq/ros2_ws/install/local_setup.bash'
+[9.385s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafiq/ros2_ws/install/setup.bash'
+[9.400s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafiq/ros2_ws/install/local_setup.zsh'
+[9.404s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafiq/ros2_ws/install/setup.zsh'
