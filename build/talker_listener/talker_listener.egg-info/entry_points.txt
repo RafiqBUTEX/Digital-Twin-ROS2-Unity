@@ -1,4 +1,0 @@
-[console_scripts]
-listener = talker_listener.listener:main
-talker = talker_listener.talker:main
-

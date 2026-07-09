@@ -1,2 +1,0 @@
-Invoking command in '/home/rafiq/ros2_ws/build/ros_tcp_endpoint': /usr/bin/cmake /home/rafiq/ros2_ws/src/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rafiq/ros2_ws/install/ros_tcp_endpoint
-Invoked command in '/home/rafiq/ros2_ws/build/ros_tcp_endpoint' returned '1': /usr/bin/cmake /home/rafiq/ros2_ws/src/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rafiq/ros2_ws/install/ros_tcp_endpoint
