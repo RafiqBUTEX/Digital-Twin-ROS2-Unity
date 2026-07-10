@@ -22,7 +22,7 @@ A real-time digital twin framework integrating ROS2 Humble with Unity 3D, enabli
 ROS2 Humble · Ubuntu 22.04 · Unity 2022 LTS · Python · C# · URDF · Gazebo · ROS-TCP-Connector
 
 ## Demo
-🎬 Video: https://youtu.be/LFyLMrutvZo?si=QoS7jtI66WOxT-Qx
+🎬 Video: https://youtu.be/644J21nwa-k
 🌐 Portfolio: https://sites.google.com/view/md-rafiqul-islam-butex/featured-project
 
 ## Repository Structure
