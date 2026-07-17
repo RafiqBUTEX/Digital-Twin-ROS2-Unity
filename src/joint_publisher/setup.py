@@ -25,6 +25,8 @@ setup(
 entry_points={
     'console_scripts': [
         'joint_publisher = joint_publisher.joint_publisher:main',
+        'slider_controller = joint_publisher.slider_controller:main',
+        'conveyor_controller = joint_publisher.conveyor_controller:main',
     ],
 },
 )

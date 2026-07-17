@@ -27,6 +27,7 @@ class JointPublisher(Node):
             math.sin(t * 0.6)
         ]
         self.publisher.publish(msg)
+        self.get_logger().info(f'Published at: {time.time():.6f}')
 
 def main():
     rclpy.init()
