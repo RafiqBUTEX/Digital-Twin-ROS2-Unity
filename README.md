@@ -88,6 +88,3 @@ ROS2 Humble · Ubuntu 22.04 · Unity 2022 LTS · Python · C# · URDF · Gazebo 
 - `collect_joint_data.py` — Joint data collection script
 - `architecture_diagram.py` — Architecture diagram script
 - `joint_data_normal.csv` — Normal motion dataset
-- `latency_plot.png` — Latency analysis plot
-- `anomaly_detection.png` — Anomaly detection plot
-- `architecture_diagram.png` — System architecture diagram
