@@ -42,10 +42,10 @@ A complete real-time digital twin framework integrating ROS2 Humble with Unity 3
 
 
 ## System Architecture - Base
-![Architecture](architecture_diagram.png)
+![Architecture](architecturediagram.png)
 
 ## System Architecture - Bidirectional Control
-![Architecture](architecture_diagram)
+![Architecture Diagram](architecture_diagram)
 
 
 ## Latency Analysis
@@ -61,7 +61,7 @@ A complete real-time digital twin framework integrating ROS2 Humble with Unity 3
 
 ## Anomaly Detection
 ![Anomaly Detection](anomaly detection.png)
-![Anomaly Detection](anomaly_detection-plot.png)
+![Anomaly Detection](anomalydetection-graph.png)
 
 
 ## Tech Stack
@@ -70,6 +70,7 @@ ROS2 Humble · Ubuntu 22.04 · Unity 2022 LTS · Python · C# · URDF · Gazebo 
 
 ## Demo
 🎬 Playlist: https://www.youtube.com/watch?v=lRkw54mJkNw&list=PLEOv3BqRrw_w&index=4
+
 🌐 Portfolio: https://sites.google.com/view/md-rafiqul-islam-butex/digital-twin-project?authuser=0
 
 
