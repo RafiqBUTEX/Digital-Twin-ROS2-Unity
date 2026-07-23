@@ -18,15 +18,14 @@ setup(
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={
-        'test': [
-            'pytest',
+        'test': ['pytest'],
+    },
+    entry_points={
+        'console_scripts': [
+            'joint_publisher = joint_publisher.joint_publisher:main',
+            'slider_controller = joint_publisher.slider_controller:main',
+            'conveyor_controller = joint_publisher.conveyor_controller:main',
+            'anomaly_detector = joint_publisher.anomaly_detector:main',
         ],
     },
-entry_points={
-    'console_scripts': [
-        'joint_publisher = joint_publisher.joint_publisher:main',
-        'slider_controller = joint_publisher.slider_controller:main',
-        'conveyor_controller = joint_publisher.conveyor_controller:main',
-    ],
-},
 )

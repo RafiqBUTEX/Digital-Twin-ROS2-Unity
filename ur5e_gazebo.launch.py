@@ -1,5 +1,5 @@
 from launch import LaunchDescription
-from launch.actions import ExecuteProcess
+from launch.actions import ExecuteProcess, TimerAction
 from launch_ros.actions import Node
 import subprocess
 
@@ -21,5 +21,20 @@ def generate_launch_description():
         ExecuteProcess(
             cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so'],
             output='screen'
+        ),
+        TimerAction(
+            period=5.0,
+            actions=[
+                Node(
+                    package='gazebo_ros',
+                    executable='spawn_entity.py',
+                    arguments=[
+                        '-file', '/home/rafiq/ros2_ws/conveyor.urdf',
+                        '-entity', 'conveyor',
+                        '-x', '1.5', '-y', '0.0', '-z', '0.0'
+                    ],
+                    output='screen'
+                )
+            ]
         ),
     ])
