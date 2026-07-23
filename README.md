@@ -49,8 +49,9 @@ A complete real-time digital twin framework integrating ROS2 Humble with Unity 3
 
 
 ## Latency Analysis
-![Latency Plot](latency_plot.png)
 ![Latency](latency_measurement.png)
+![Latency Plot](latency_plot.png)
+
 
 | Metric | Value |
 |---|---|
@@ -62,7 +63,7 @@ A complete real-time digital twin framework integrating ROS2 Humble with Unity 3
 
 ## Anomaly Detection
 ![Anomaly Detection](anomalydetection.png)
-![Anomaly Detection](anomalydetection_graph.png)
+![Anomaly Detection Graph](anomalydetection_graph.png)
 
 
 ## Tech Stack
