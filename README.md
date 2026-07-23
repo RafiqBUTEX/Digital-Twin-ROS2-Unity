@@ -45,11 +45,12 @@ A complete real-time digital twin framework integrating ROS2 Humble with Unity 3
 ![Architecture](architecturediagram.png)
 
 ## System Architecture - Bidirectional Control
-![Architecture Diagram](architecture_diagram)
+![Architecture Diagram](architecture_diagram.png)
 
 
 ## Latency Analysis
 ![Latency Plot](latency_plot.png)
+![Latency](latency_measurement.png)
 
 | Metric | Value |
 |---|---|
@@ -60,8 +61,8 @@ A complete real-time digital twin framework integrating ROS2 Humble with Unity 3
 
 
 ## Anomaly Detection
-![Anomaly Detection](anomaly detection.png)
-![Anomaly Detection](anomalydetection-graph.png)
+![Anomaly Detection](anomalydetection.png)
+![Anomaly Detection](anomalydetection_graph.png)
 
 
 ## Tech Stack
