@@ -41,8 +41,11 @@ A complete real-time digital twin framework integrating ROS2 Humble with Unity 3
 - 🔄 Reinforcement learning-based control (Unity ML-Agents) — under development
 
 
-## System Architecture
+## System Architecture - Base
 ![Architecture](architecture_diagram.png)
+
+## System Architecture - Bidirectional Control
+![Architecture](architecture_diagram)
 
 
 ## Latency Analysis
@@ -57,7 +60,8 @@ A complete real-time digital twin framework integrating ROS2 Humble with Unity 3
 
 
 ## Anomaly Detection
-![Anomaly Detection](anomaly_detection.png)
+![Anomaly Detection](anomaly detection.png)
+![Anomaly Detection](anomaly_detection-plot.png)
 
 
 ## Tech Stack
