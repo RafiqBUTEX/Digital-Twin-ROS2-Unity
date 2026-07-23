@@ -65,8 +65,8 @@ ROS2 Humble · Ubuntu 22.04 · Unity 2022 LTS · Python · C# · URDF · Gazebo 
 
 
 ## Demo
-🎬 Playlist: [YouTube Playlist Link]  
-🌐 Portfolio: https://sites.google.com/view/md-rafiqul-islam-butex/featured-project
+🎬 Playlist: https://www.youtube.com/watch?v=lRkw54mJkNw&list=PLEOv3BqRrw_w&index=4
+🌐 Portfolio: https://sites.google.com/view/md-rafiqul-islam-butex/digital-twin-project?authuser=0
 
 
 ## Repository Structure
