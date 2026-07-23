@@ -62,7 +62,7 @@ A complete real-time digital twin framework integrating ROS2 Humble with Unity 3
 
 
 ## Anomaly Detection
-![Anomaly Detection](anomalydetection.png)
+![Anomaly Detection](anomaly detection.png)
 ![Anomaly Detection Graph](anomalydetection_graph.png)
 
 
