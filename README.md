@@ -1,21 +1,26 @@
 # Digital Twin & CPS Development for UR5e Robotic Arm
+## ROS2 · MoveIt2 · Gazebo · Unity 3D · ML Anomaly Detection
 
-## ROS2 · Gazebo · Unity 3D · ML Anomaly Detection
+**Author:** Md. Rafiqul Islam | BUTEX  
+**Period:** May 2026 – Present
 
-**Author:** Md. Rafiqul Islam | BUTEX
-**Period:** June 2026 –
-
+---
 
 ## Overview
-A complete real-time digital twin framework integrating ROS2 Humble with Unity 3D, enabling live synchronization of a UR5e 6-axis robotic arm between Gazebo simulation and Unity virtual environment — extended to a multi-machine virtual lab with bidirectional control and ML-powered anomaly detection.
+A complete real-time digital twin framework integrating ROS2 Humble with Unity 3D, enabling live synchronization of a UR5e 6-axis robotic arm between Gazebo simulation and Unity virtual environment — extended to a multi-machine virtual lab with bidirectional control, MoveIt2 motion planning, and ML-powered anomaly detection.
+
+---
 
 ## Objectives
 - Build a real-time digital twin of a 6-axis industrial robotic arm
 - Establish ROS2–Unity bidirectional communication via TCP bridge
 - Synchronize joint states between Gazebo and Unity at 10Hz
 - Implement bidirectional control from Unity UI to Gazebo
+- Integrate MoveIt2 for intelligent motion planning
 - Build multi-machine virtual lab with conveyor belt
 - Add ML-based anomaly detection on joint state data
+
+---
 
 ## Results
 
@@ -39,6 +44,15 @@ A complete real-time digital twin framework integrating ROS2 Humble with Unity 3
 - ✅ Real-time anomaly alerts in Unity UI (red/green)
 - ✅ 500-sample normal motion dataset collected via rosbag2
 - 🔄 Reinforcement learning-based control (Unity ML-Agents) — under development
+
+### Stage 4 — MoveIt2 Motion Planning
+- ✅ MoveIt2 integrated with Gazebo simulation
+- ✅ Collision-aware trajectory planning for UR5e
+- ✅ Unity → ROS2 → MoveIt2 → Gazebo full pipeline
+- ✅ Draggable target sphere in Unity sends goal pose to MoveIt2
+- ✅ Goal accepted and executed in Gazebo and RViz
+- 🔄 Advanced motion planning features under development
+
 
 
 ## System Architecture - Base
@@ -71,7 +85,7 @@ A complete real-time digital twin framework integrating ROS2 Humble with Unity 3
 
 
 ## Tech Stack
-ROS2 Humble · Ubuntu 22.04 · Unity 2022 LTS · Python · C# · URDF · Gazebo · RViz · ROS-TCP-Connector · scikit-learn · Unity ML-Agents
+ROS2 Humble · MoveIt2 · Ubuntu 22.04 · Unity 2022 LTS · Python · C# · URDF · Gazebo · RViz · ROS-TCP-Connector · scikit-learn · Unity ML-Agents
 
 
 ## Demo
@@ -80,15 +94,16 @@ ROS2 Humble · Ubuntu 22.04 · Unity 2022 LTS · Python · C# · URDF · Gazebo 
 🌐 Portfolio: https://sites.google.com/view/md-rafiqul-islam-butex/digital-twin-project?authuser=0
 
 
+
 ## Repository Structure
-- `src/joint_publisher/` — Joint publisher, slider controller, conveyor controller, anomaly detector
+- `src/joint_publisher/` — Joint publisher, slider controller, conveyor controller, anomaly detector, MoveIt commander
 - `src/talker_listener/` — ROS2 pub/sub demo
 - `src/ROS-TCP-Endpoint/` — ROS2–Unity bridge
-- `ur5e_gazebo.launch.py` — Gazebo launch file
-- `conveyor.urdf` — Conveyor belt model
+- `launch/` — Gazebo and MoveIt launch files
+- `models/conveyor.urdf` — Conveyor belt model
 - `ml_agents_config/` — ML-Agents training config
-- `latency_plot.py` — Latency measurement script
-- `anomaly_detection.py` — Anomaly detection script
-- `collect_joint_data.py` — Joint data collection script
-- `architecture_diagram.py` — Architecture diagram script
-- `joint_data_normal.csv` — Normal motion dataset
+- `scripts/` — Latency, anomaly detection, data collection scripts
+- `data/joint_data_normal.csv` — Normal motion dataset
+- `unity/` — Unity C# scripts
+
+
