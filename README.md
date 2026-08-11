@@ -57,7 +57,7 @@ A complete real-time digital twin framework integrating ROS2 Humble with Unity 3
 
 ## System Architecture - Base
 
-| Architecture Diagram - Base | Architecture Diagram - Bidirectional Control |
+| Architecture Diagram - Base | Architecture Diagram - Extended |
 |---|---|
 | ![Architecture](architecturediagram.png) | ![Latency](architecture_diagram.png) |
 
