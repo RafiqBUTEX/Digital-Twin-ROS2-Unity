@@ -1,15 +1,55 @@
-unity/Library/
-unity/Logs/
-unity/Temp/
-unity/obj/
-unity/*.csproj
-unity/*.sln
+# ==========================
+# ROS 2
+# ==========================
 build/
 install/
 log/
+
+# Colcon
+.colcon/
+
+# Python
 __pycache__/
 *.pyc
-.vscode/build/
-install/
-log/
-__pycache__/
+
+# VS Code
+.vscode/
+
+# Linux
+*~
+.DS_Store
+
+# ==========================
+# Unity
+# ==========================
+unity/Library/
+unity/Temp/
+unity/Obj/
+unity/Build/
+unity/Builds/
+unity/Logs/
+unity/UserSettings/
+unity/MemoryCaptures/
+
+# Visual Studio
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# Unity generated
+*.apk
+*.unitypackage
+
+# ==========================
+# ROS bags (optional)
+# Uncomment if bags become large
+# ==========================
+# data/rosbags/
+
+# ==========================
+# Ignore nested Git metadata
+# ==========================
+src/.git_backup/

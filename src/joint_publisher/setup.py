@@ -26,6 +26,7 @@ setup(
             'slider_controller = joint_publisher.slider_controller:main',
             'conveyor_controller = joint_publisher.conveyor_controller:main',
             'anomaly_detector = joint_publisher.anomaly_detector:main',
+            'moveit_commander = joint_publisher.moveit_commander:main',
         ],
     },
 )

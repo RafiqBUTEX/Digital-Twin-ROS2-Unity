@@ -1,0 +1,15 @@
+unity/Library/
+unity/Logs/
+unity/Temp/
+unity/obj/
+unity/*.csproj
+unity/*.sln
+build/
+install/
+log/
+__pycache__/
+*.pyc
+.vscode/build/
+install/
+log/
+__pycache__/

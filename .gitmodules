@@ -1,0 +1,6 @@
+[submodule "src/ROS-TCP-Endpoint"]
+	path = src/ROS-TCP-Endpoint
+	url = https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git
+[submodule "src/Universal_Robots_ROS2_Gazebo_Simulation"]
+	path = src/Universal_Robots_ROS2_Gazebo_Simulation
+	url = https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation.git
