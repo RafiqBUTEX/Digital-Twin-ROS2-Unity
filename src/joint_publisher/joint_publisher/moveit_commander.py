@@ -2,8 +2,8 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64MultiArray
 from moveit_msgs.action import MoveGroup
-from moveit_msgs.msg import MotionPlanRequest, WorkspaceParameters, RobotState, Constraints, PositionConstraint, OrientationConstraint, BoundingVolume
-from geometry_msgs.msg import Pose, PoseStamped
+from moveit_msgs.msg import Constraints, PositionConstraint, BoundingVolume
+from geometry_msgs.msg import PoseStamped
 from shape_msgs.msg import SolidPrimitive
 from rclpy.action import ActionClient
 
@@ -17,11 +17,19 @@ class MoveItCommander(Node):
             10)
         self._action_client = ActionClient(
             self, MoveGroup, '/move_action')
+        self._send_goal_future = None
         self.get_logger().info('MoveIt Commander ready!')
 
     def callback(self, msg):
         self.get_logger().info(f'Received target: {msg.data}')
-        self.send_goal(msg.data)
+        ros_x = msg.data[2]
+        ros_y = -msg.data[0]
+        ros_z = msg.data[1]
+        converted = list(msg.data)
+        converted[0] = ros_x
+        converted[1] = ros_y
+        converted[2] = ros_z
+        self.send_goal(converted)
 
     def send_goal(self, data):
         goal_msg = MoveGroup.Goal()
@@ -31,7 +39,6 @@ class MoveItCommander(Node):
         goal_msg.request.max_velocity_scaling_factor = 0.5
         goal_msg.request.max_acceleration_scaling_factor = 0.5
 
-        # Target pose
         pose = PoseStamped()
         pose.header.frame_id = 'world'
         pose.pose.position.x = data[0]
@@ -42,7 +49,6 @@ class MoveItCommander(Node):
         pose.pose.orientation.z = data[5]
         pose.pose.orientation.w = data[6]
 
-        # Position constraint
         pos_constraint = PositionConstraint()
         pos_constraint.header.frame_id = 'world'
         pos_constraint.link_name = 'tool0'
@@ -80,6 +86,8 @@ class MoveItCommander(Node):
     def result_callback(self, future):
         result = future.result().result
         self.get_logger().info(f'Result: {result.error_code}')
+        self.get_logger().info('Ready for next goal!')
+        self._send_goal_future = None
 
 def main():
     rclpy.init()
