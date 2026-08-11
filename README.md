@@ -100,10 +100,8 @@ ROS2 Humble · MoveIt2 · Ubuntu 22.04 · Unity 2022 LTS · Python · C# · URDF
 - `src/talker_listener/` — ROS2 pub/sub demo
 - `src/ROS-TCP-Endpoint/` — ROS2–Unity bridge
 - `launch/` — Gazebo and MoveIt launch files
-- `models/conveyor.urdf` — Conveyor belt model
+- `models/urdf/conveyor.urdf` — Conveyor belt model
 - `ml_agents_config/` — ML-Agents training config
 - `scripts/` — Latency, anomaly detection, data collection scripts
-- `data/joint_data_normal.csv` — Normal motion dataset
+- `data/csv/joint_data_normal.csv` — Normal motion dataset
 - `unity/` — Unity C# scripts
-
-
