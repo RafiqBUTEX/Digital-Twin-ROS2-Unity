@@ -82,6 +82,27 @@ A complete real-time digital twin framework integrating ROS2 Humble with Unity 3
 |---|---|
 | ![Architecture](anomalydetection.png) | ![Latency](anomalydetection_graph.png) |
 
+## Limitations & Known Constraints
+
+### Hardware & Environment
+- Full stack (Gazebo + MoveIt2 + RViz + Unity + ROS2 bridge) runs on a VirtualBox VM with 6GB RAM — causes occasional performance degradation and Gazebo instability under heavy load
+- Static IP configuration required for stable ROS2–Unity bridge connection across VM network restarts
+- Latency measurement (avg 104.3ms) reflects VirtualBox overhead — expected to be significantly lower on native hardware
+
+### Software & Compatibility
+- Unity ML-Agents Python package incompatible with Python 3.10 (Ubuntu 22.04 default) — blocks full RL training pipeline; currently under investigation
+- ROS-TCP-Endpoint bridge occasionally crashes when Unity registers too many publishers simultaneously — requires manual restart
+- MoveIt2 coordinate frame requires explicit transformation from Unity coordinate space (Y-up) to ROS2 frame (Z-up) before goal pose submission
+
+### Motion Planning
+- MoveIt2 planning occasionally fails for random target positions outside the UR5e reachable workspace — target sphere position must be manually constrained to valid workspace bounds
+- `scaled_joint_trajectory_controller` (default MoveIt2 controller) not available in Gazebo simulation — requires `joint_trajectory_controller` configuration override
+
+### Scope
+- Conveyor belt visual motion in Gazebo not yet implemented — speed control is functional via ROS2 topic but belt mesh animation is pending
+- RL-based control policy training not yet complete — Unity ML-Agents setup is ready but training loop blocked by Python version conflict
+- Digital twin currently mirrors simulation only — physical robot hardware integration not yet implemented
+
 
 
 ## Tech Stack
