@@ -2,7 +2,7 @@
 ## ROS2 · MoveIt2 · Gazebo · Unity 3D · ML Anomaly Detection
 
 **Author:** Md. Rafiqul Islam | BUTEX  
-**Period:** May 2026 – Present
+**Period:** April 2026 – Present
 
 ---
 
